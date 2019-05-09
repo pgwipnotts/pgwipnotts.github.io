@@ -4,4 +4,26 @@ p {
 
 h1 {
 	text-align: center;
+    font-size: 50px;
+    background-color: cornflowerblue;
+}
+.header {
+    text-align: center;
+    background-color: cornflowerblue;
+    overflow: auto;
+    height: 200px;
+    width: 700px
+}
+
+img {
+    float: left;
+}
+
+.main-title {
+    margin-top: 25px;
+    font-size: 45px; 
+}
+
+body {
+    font-family: sans-serif;
 }
