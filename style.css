@@ -34,3 +34,11 @@ body {
     height: 30px;
     padding-top: 9px;
 }
+
+.details {
+    text-align: center;
+}
+
+.email {
+    float: right
+}
