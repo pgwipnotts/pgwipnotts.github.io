@@ -12,18 +12,18 @@
 }
 
 .main-title {
-    font-size: 45px; 
-    height: 178px;
+    font-size: 50px; 
+    height: 188px;
     width: 500px;
     margin: 0px;
-    padding-top: 22px;
-    padding-left: 200px;
+    padding-top: 12px;
+    padding-left: 387.5px;
 }
 
 body {
     font-family: sans-serif;
-    width: 900px;
-        
+    width: 1275px;
+    text-align: center;
 }
 
 .twitter {
