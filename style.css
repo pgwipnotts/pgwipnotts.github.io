@@ -6,21 +6,24 @@
 }
 
 .logo {
-    float: left;
+    float: right;
     width: 200px;
-    height: 200px
+    height: 200px;
 }
 
 .main-title {
     font-size: 45px; 
     height: 178px;
-    width: 700px;
+    width: 500px;
     margin: 0px;
     padding-top: 22px;
+    padding-left: 200px;
 }
 
 body {
     font-family: sans-serif;
+    width: 900px;
+        
 }
 
 .twitter {
@@ -41,4 +44,12 @@ body {
 
 .email {
     float: right
+}
+
+.uon_logo {
+    float: left;
+    width: 200px;
+    height: 77px;
+    padding-bottom: 100px
+/*    background-color: white;*/
 }
