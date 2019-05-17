@@ -3,6 +3,7 @@
     background-color: cornflowerblue;
     height: 200px;
     overflow: auto;
+    margin-top: 77px;
 }
 
 .logo {
@@ -59,3 +60,41 @@ body {
     font-size: 20px;
     text-align: justify;
 }
+
+.content {
+    
+}
+
+.navbar {
+    height: 77px;
+    position: fixed;
+    margin-top: -77px;
+    background-color: white;
+    width: 100%;
+}
+
+.buttons {
+    float: left;
+    display: block;
+    padding: 27px;
+    font-size: 20px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.buttons:hover {
+    background-color: darkseagreen;
+}
+
+.nav_logo {
+    float: left;
+    height: 77px;
+    padding: 0px;
+}
+
+.page_holder {
+    margin-top: 77px;
+    padding: 50px;
+}
+
+
