@@ -100,3 +100,11 @@ body {
 }
 
 
+
+.location-picture {
+  height: 300px;
+}
+
+.location-content {
+  margin-top: 77px;
+}
