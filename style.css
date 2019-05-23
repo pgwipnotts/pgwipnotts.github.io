@@ -86,6 +86,7 @@ body {
 
 .buttons:hover {
     background-color: darkseagreen;
+    color: darkblue;
 }
 
 .nav_logo {
@@ -102,9 +103,25 @@ body {
 
 
 .location-picture {
-  height: 300px;
+  width: 875px;
 }
 
 .location-content {
   margin-top: 77px;
+  width: 875px;
+  padding-left: 200px;
+}
+
+.image-enlarged {
+  margin-top: 77px;
+  width: 1275px;
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: darkseagreen;
 }
