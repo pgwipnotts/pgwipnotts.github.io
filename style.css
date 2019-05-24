@@ -73,6 +73,9 @@ body {
     margin-top: -77px;
     background-color: white;
     width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: cornflowerblue;
 }
 
 .buttons {
