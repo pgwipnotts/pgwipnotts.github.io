@@ -1,29 +1,29 @@
 .header {
     text-align: center;
     background-color: cornflowerblue;
-    height: 200px;
     overflow: auto;
     margin-top: 77px;
+    width=100%;
 }
 
 .logo {
     float: right;
-    width: 200px;
-    height: 200px;
+    width: 20%;
+  
+    height: auto;
 }
 
 .main-title {
-    font-size: 45px; 
-    height: 178px;
-    width: 500px;
-    margin: 0px;
-    padding-top: 22px;
-    padding-left: 387.5px;
+    font-size:4.2vw; 
+    height: auto;
+    width: 60%;
+/*    padding-top: 22px;*/
+    float: left;
 }
 
 body {
     font-family: sans-serif;
-    width: 1275px;
+    width: 100%;
     margin: auto;
 }
 
@@ -49,22 +49,22 @@ body {
 
 .uon_logo {
     float: left;
-    width: 200px;
-    height: 77px;
-    padding-bottom: 100px
-/*    background-color: white;*/
+    width: 20%;
+    height: auto;
 }
 
 .description {
-    padding: 20px;
+    padding-top: 3%;
+    padding-left: 1%;
     font-size: 20px;
+    width: 98%;
     text-align: justify;
 }
 
 .content {
-    width: 875px;
+    width: 98%;
     text-align: center;
-    margin-left: 200px;
+    padding-left: 1%;
 }
 
 .navbar {
@@ -72,7 +72,7 @@ body {
     position: fixed;
     margin-top: -77px;
     background-color: white;
-    width: 1275px;
+    width: 100%;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: cornflowerblue;
@@ -81,7 +81,10 @@ body {
 .buttons {
     float: left;
     display: block;
-    padding: 27px;
+    padding-bottom: 27px;
+    padding-top: 27px;
+    padding-left: 4.1%;
+    padding-right: 4.1%;
     font-size: 20px;
     text-decoration: none;
     color: darkblue;
@@ -106,13 +109,13 @@ body {
 
 
 .location-picture {
-  width: 875px;
+  width: 100%;
 }
 
 .location-content {
   margin-top: 77px;
-  width: 875px;
-  padding-left: 200px;
+  width: 98%;
+  padding-left: 1%;
 }
 
 .image-enlarged {
