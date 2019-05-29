@@ -131,3 +131,140 @@ a {
 a:hover {
   color: darkseagreen;
 }
+
+@media screen and (max-width: 800px) {
+/*  This will control the mobile site */
+}
+@media screen and (min-width: 1010px) {
+/*  This will control the site on screens larger than 1000px */
+  .header {
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 200px;
+    overflow: auto;
+    margin-top: 77px;
+  }
+
+  .logo {
+      float: right;
+      width: 200px;
+      height: 200px;
+  }
+
+  .main-title {
+      font-size: 43px; 
+      height: 178px;
+      width: 400px;
+      margin: 0px;
+      padding-top: 25px;
+      padding-left: 100px;
+  }
+
+  body {
+      font-family: sans-serif;
+      width: 1000px;
+      margin: auto;
+  }
+
+  .twitter {
+      padding-left: 5px;
+      float: left
+  }
+
+  .twitterlogo {
+      float: left;
+      width: 30px;
+      height: 30px;
+      padding-top: 9px;
+  }
+
+  .details {
+      text-align: center;
+  }
+
+  .email {
+      float: right
+  }
+
+  .uon_logo {
+      float: left;
+      width: 200px;
+/*      height: 77px;*/
+      padding-bottom: 100px
+  /*    background-color: white;*/
+  }
+
+  .description {
+      padding-top: 22px;
+      font-size: 20px;
+      text-align: justify;
+  }
+
+  .content {
+      width: 1000px;
+      text-align: center;
+/*      margin-left:0px;*/
+  }
+
+  .navbar {
+      height: 77px;
+      position: fixed;
+      margin-top: -77px;
+      background-color: white;
+      width: 1010px;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: cornflowerblue;
+  }
+
+  .buttons {
+      float: left;
+      display: block;
+      padding: 27px;
+      font-size: 20px;
+      text-decoration: none;
+      color: darkblue;
+  }
+
+  .buttons:hover {
+      background-color: darkseagreen;
+      color: darkblue;
+  }
+
+  .nav_logo {
+      float: left;
+      height: 77px;
+      padding: 0px;
+  }
+
+  .page_holder {
+      margin-top: 77px;
+      padding: 50px;
+  }
+
+
+
+  .location-picture {
+    width: 990px;
+  }
+
+  .location-content {
+    margin-top: 77px;
+    width: 1000px;
+/*    padding-left: 200px;*/
+  }
+
+  .image-enlarged {
+    margin-top: 77px;
+    width: 1275px;
+  }
+
+  a {
+    color: cornflowerblue;
+    text-decoration-line: none;
+  }
+
+  a:hover {
+    color: darkseagreen;
+  }
+}
