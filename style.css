@@ -138,7 +138,7 @@ a:hover {
   .header {
     text-align: center;
     background-color: cornflowerblue;
-/*    height: 30%;*/
+    height: 30%;
     overflow: auto;
     margin-top: 15.5%;
   }
