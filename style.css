@@ -334,7 +334,7 @@ a:hover {
   .content {
       width: 1000px;
       text-align: center;
-/*      margin-left:0px;*/
+      padding-left: 5px;
   }
 
   .navbar {
@@ -376,19 +376,19 @@ a:hover {
 
 
   .location-picture {
-    width: 990px;
+    width: 1000px;
   }
 
   .location-content {
     margin-top: 77px;
     width: 1000px;
     text-align: justify;
-/*    padding-left: 200px;*/
+    padding-left: 5px;
   }
 
   .image-enlarged {
     margin-top: 77px;
-    width: 1275px;
+    width: 100%;
   }
 
   a {
