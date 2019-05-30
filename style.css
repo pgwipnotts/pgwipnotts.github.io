@@ -134,7 +134,8 @@ a:hover {
 }
 
 @media screen and (max-width: 500px) {
-/*  This will control the mobile site */
+/*  This will control the mobile site 
+  Need to change to 360 width to actually fit on a screen*/
   .header {
     text-align: center;
     background-color: cornflowerblue;
@@ -287,7 +288,7 @@ a:hover {
 
   .main-title {
       font-size: 43px; 
-      height: 178px;
+      height: 174px;
       width: 400px;
       margin: 0px;
       padding-top: 25px;
