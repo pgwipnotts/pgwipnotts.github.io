@@ -140,7 +140,7 @@ a:hover {
     background-color: cornflowerblue;
     height: 30%;
     overflow: auto;
-    margin-top: 15.5%;
+    margin-top: 60px;
   }
 
   .logo {
@@ -200,9 +200,9 @@ a:hover {
   }
 
   .navbar {
-      height: 13%;
+      height: 60px;
       position: fixed;
-      margin-top: -15.5%;
+      margin-top: -60px;
       background-color: white;
       width: 100%;
       border-bottom-width: 1px;
@@ -213,10 +213,8 @@ a:hover {
   .buttons {
       float: left;
       display: block;
-      padding-top: 5.4%;
-      padding-left: 4.1%;
-      padding-right: 4.1%;
-      font-size: 4vw;
+      padding: 4%;
+      font-size: 3.5vw;
       text-decoration: none;
       color: darkblue;
   }
@@ -244,14 +242,14 @@ a:hover {
   }
 
   .location-content {
-    margin-top: 15.5%;
+    margin-top: 60px;
     width: 94%;
     text-align: justify;
 /*    padding-left: 200px;*/
   }
 
   .image-enlarged {
-    margin-top: 15.5%;
+    margin-top: 60px;
     width: 1275px;
   }
 
