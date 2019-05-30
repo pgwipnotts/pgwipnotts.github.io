@@ -216,7 +216,10 @@ a:hover {
   .buttons {
       float: left;
       display: block;
-      padding: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 4%;
+      padding-right: 4%;
       font-size: 18px;
       text-decoration: none;
       color: darkblue;
@@ -234,7 +237,7 @@ a:hover {
   }
 
   .page_holder {
-      margin-top: 15.5%;
+      margin-top: 60px;
       padding: 50px;
   }
 
