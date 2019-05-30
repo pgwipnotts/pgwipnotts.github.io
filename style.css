@@ -113,9 +113,9 @@ body {
 }
 
 .location-content {
-  margin-top: 77px;
+  margin-top: 60px;
   width: 98%;
-  padding-left: 1%;
+/*  padding-left: 1%;*/
   text-align: justify;
 }
 
@@ -189,13 +189,16 @@ a:hover {
   }
 
   .description {
-      padding: 3%;
+      padding-top: 3%;
+      padding-left: 1%;
       font-size: 20px;
+      width: 98%;
       text-align: justify;
   }
 
   .content {
-      width: 94%;
+      width: 98%;
+      padding-left: 1%;
       text-align: center;
   }
 
@@ -214,7 +217,7 @@ a:hover {
       float: left;
       display: block;
       padding: 20px;
-      font-size: 17px;
+      font-size: 18px;
       text-decoration: none;
       color: darkblue;
   }
@@ -235,17 +238,15 @@ a:hover {
       padding: 50px;
   }
 
-
-
   .location-picture {
-    width: 490px;
+    width: 100%;
   }
 
   .location-content {
     margin-top: 60px;
-    width: 94%;
+    width: 98%;
     text-align: justify;
-/*    padding-left: 200px;*/
+    padding-left: 1%;
   }
 
   .image-enlarged {
