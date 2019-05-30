@@ -213,8 +213,8 @@ a:hover {
   .buttons {
       float: left;
       display: block;
-      padding: 4%;
-      font-size: 3.5vw;
+      padding: 20px;
+      font-size: 17px;
       text-decoration: none;
       color: darkblue;
   }
