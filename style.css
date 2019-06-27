@@ -140,6 +140,49 @@ a:hover {
   text-align: justify;
 }
 
+.speaker-bios {
+  width: 100%;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.speaker-bios table {
+  width: 100%;
+  border: 10px solid black;
+  border-collapse: collapse;
+}
+
+.speaker-bios td, tr {
+  border: 10px solid black;
+  border-collapse: collapse;
+  height: 250px;
+}
+
+.speaker-bios p {
+  text-align: justify;
+  padding: 1%;
+}
+
+.jess {
+  background-color: darkseagreen;
+}
+
+.helen {
+  background-color: cornflowerblue;
+}
+
+.camilla {
+  background-color: deeppink;
+}
+
+.emma {
+  background-color: darkseagreen;
+}
+
+.speaker-images {
+  height: 100%;
+}
+
 @media screen and (max-width: 500px) {
 /*  This will control the mobile site */
   .header {
@@ -420,37 +463,4 @@ a:hover {
     text-align: justify;
     padding-left: 5px;
   }
-}
-.speaker-bios {
-  width: 100%;
-  text-align: center;
-  padding-left: 5px;
-}
-
-.speaker-bios table {
-  width: 100%;
-  border: 10px solid black;
-  border-collapse: collapse;
-}
-
-.speaker-bios td, tr {
-  border: 10px solid black;
-  border-collapse: collapse;
-  height: 250px;
-}
-
-.jess {
-  background-color: darkseagreen;
-}
-
-.helen {
-  background-color: cornflowerblue;
-}
-
-.camilla {
-  background-color: deeppink;
-}
-
-.emma {
-  background-color: darkseagreen;
 }
