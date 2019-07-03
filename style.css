@@ -1,24 +1,33 @@
 .header {
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: limegreen;
     overflow: auto;
     margin-top: 84px;
     width=100%;
+    border-bottom: 7px solid black;
 }
 
 .logo {
     float: right;
     width: 20%;
-  
     height: auto;
+    border-left: 7px solid black;
+    background-color: limegreen;
+/*  borders need to be % to make this work (I think) */
 }
 
 .main-title {
-    font-size: 4.2vw; 
+    font-size: 4.1vw; 
     height: auto;
-    width: 60%;
-/*    padding-top: 22px;*/
+    width: 42%;
     float: left;
+    color: white;
+    background-color: cornflowerblue;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    margin: 0px;
 }
 
 body {
@@ -51,6 +60,9 @@ body {
     float: left;
     width: 20%;
     height: auto;
+    padding-bottom: 12.8%;
+    padding-right: 5px;
+    border-right: 7px solid black;
 }
 
 .description {
