@@ -2,7 +2,7 @@
     text-align: center;
     background-color: cornflowerblue;
     overflow: auto;
-    margin-top: 77px;
+    margin-top: 84px;
     width=100%;
 }
 
@@ -71,12 +71,10 @@ body {
 .navbar {
     height: 77px;
     position: fixed;
-    margin-top: -77px;
+    margin-top: -84px;
     background-color: white;
     width: 100%;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: cornflowerblue;
+    border-bottom: 7px solid black;
 }
 
 .buttons {
@@ -90,17 +88,21 @@ body {
     text-decoration: none;
     color: darkblue;
     font-weight: bold;
-/*    border: 2px solid black*/
 }
 
 .buttons:hover {
     background-color: limegreen;
     color: black;
+    border: 3px solid black;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
 }
 
 .nav_logo {
     float: left;
-    height: 77px;
+    height: 76px;
     padding: 0px;
 }
 
@@ -116,14 +118,14 @@ body {
 }
 
 .location-content {
-  margin-top: 77px;
+  margin-top: 84px;
   width: 98%;
   padding-left: 1%;
   text-align: justify;
 }
 
 .image-enlarged {
-  margin-top: 77px;
+  margin-top: 84px;
   width: 1275px;
 }
 
@@ -137,7 +139,7 @@ a:hover {
 }
 
 .speakers-content {
-  margin-top: 77px;
+  margin-top: 84px;
   width: 98%;
 /*  padding-left: 1%;*/
   text-align: justify;
@@ -188,7 +190,7 @@ a:hover {
 }
 
 .programme-content {
-  margin-top: 77px;
+  margin-top: 84px;
   width: 98%;
 /*  padding-left: 1%;*/
   text-align: justify;
@@ -233,7 +235,7 @@ tr.talk {
 }
 
 .registration-content {
-  margin-top: 77px;
+  margin-top: 84px;
   width: 98%;
 /*  padding-left: 1%;*/
   text-align: center;
@@ -256,7 +258,7 @@ tr.talk {
     background-color: cornflowerblue;
 /*    height: 270px;*/
     overflow: auto;
-    margin-top: 120px;
+    margin-top: 127px;
   }
 
   .logo {
@@ -266,7 +268,7 @@ tr.talk {
   }
 
   .main-title {
-      font-size: 9vw; 
+      font-size: 8vw; 
       width: 80%;
       margin-top: 0%;
       margin-bottom: 2%;
@@ -322,12 +324,10 @@ tr.talk {
   .navbar {
       height: 120px;
       position: fixed;
-      margin-top: -120px;
+      margin-top: -127px;
       background-color: white;
       width: 100%;
-      border-bottom-width: 1px;
-      border-bottom-style: solid;
-      border-bottom-color: cornflowerblue;
+      border-bottom: 7px solid black;
   }
 
   .buttons {
@@ -345,6 +345,11 @@ tr.talk {
   .buttons:hover {
       background-color: limegreen;
       color: black;
+      border: 3px solid black;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 3.4%;
+      padding-right: 3.4%;
   }
 
   .nav_logo {
@@ -363,7 +368,7 @@ tr.talk {
   }
 
   .location-content {
-    margin-top: 120px;
+    margin-top: 127px;
     width: 98%;
     text-align: justify;
     padding-left: 1%;
@@ -384,21 +389,21 @@ tr.talk {
   }
   
   .speakers-content {
-    margin-top: 120px;
+    margin-top: 127px;
     width: 98%;
     text-align: justify;
     padding-left: 1%;
   }
   
   .programme-content {
-    margin-top: 120px;
+    margin-top: 127px;
     width: 98%;
     text-align: justify;
     padding-left: 1%;
   }
   
   .registration-content {
-    margin-top: 120px;
+    margin-top: 127px;
     width: 98%;
     text-align: center;
 /*    padding-left: 1%;*/
@@ -411,7 +416,7 @@ tr.talk {
     background-color: cornflowerblue;
     height: 200px;
     overflow: auto;
-    margin-top: 77px;
+    margin-top: 84px;
   }
 
   .logo {
@@ -479,12 +484,10 @@ tr.talk {
   .navbar {
       height: 77px;
       position: fixed;
-      margin-top: -77px;
+      margin-top: -84px;
       background-color: white;
       width: 1010px;
-      border-bottom-width: 1px;
-      border-bottom-style: solid;
-      border-bottom-color: cornflowerblue;
+      border-bottom: 7px solid black;
   }
 
   .buttons {
@@ -499,11 +502,13 @@ tr.talk {
   .buttons:hover {
       background-color: limegreen;
       color: black;
+      border: 3px solid black;
+      padding: 24px;
   }
 
   .nav_logo {
       float: left;
-      height: 77px;
+      height: 76px;
       padding: 0px;
   }
 
@@ -519,14 +524,14 @@ tr.talk {
   }
 
   .location-content {
-    margin-top: 77px;
+    margin-top: 84px;
     width: 1000px;
     text-align: justify;
     padding-left: 5px;
   }
 
   .image-enlarged {
-    margin-top: 77px;
+    margin-top: 84px;
     width: 100%;
   }
 
@@ -540,21 +545,21 @@ tr.talk {
   }
   
   .speakers-content {
-    margin-top: 77px;
+    margin-top: 84px;
     width: 1000px;
     text-align: justify;
     padding-left: 5px;
   }
   
   .programme-content {
-    margin-top: 77px;
+    margin-top: 84px;
     width: 1000px;
     text-align: justify;
     padding-left: 5px;
   }
   
   .registration-content {
-    margin-top: 77px;
+    margin-top: 84px;
     width: 1000px;
     text-align: center;
 /*    padding-left: 5px;*/
