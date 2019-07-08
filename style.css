@@ -17,13 +17,13 @@
 }
 
 .main-title {
-    font-size: 4vw; 
+    font-size: 3.7vw; 
     width: 56.9%;
     float: left;
     color: white;
     background-color: cornflowerblue;
-    padding-bottom: 3.1%;
-    padding-top: 3.1%;
+    padding-bottom: 3.7%;
+    padding-top: 3.7%;
 /*
     padding-left: 5.97%;
     padding-right: 5.97%;
@@ -449,12 +449,12 @@ tr.talk {
   .main-title {
     font-size: 39px; 
 /*      height: 174px;*/
-    width: 545px;
+    width: 530px;
     margin: 0px;
     padding-top: 33px;
     padding-bottom: 33px;
-    padding-left: 9px;
-    padding-right: 8px;
+    padding-left: 1.6%;
+    padding-right: 1.6%;
   }
 
   body {
