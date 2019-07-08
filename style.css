@@ -17,13 +17,13 @@
 }
 
 .main-title {
-    font-size: 3.7vw; 
-    width: 56.9%;
+    font-size: 4vw; 
+    width: 56.95%;
     float: left;
     color: white;
     background-color: cornflowerblue;
-    padding-bottom: 2.55%;
-    padding-top: 2.55%;
+    padding-bottom: 3.1%;
+    padding-top: 3.1%;
 /*
     padding-left: 5.97%;
     padding-right: 5.97%;
@@ -32,7 +32,7 @@
 }
 
 body {
-    font-family: "Segoe Ui";
+    font-family: Arial;
     width: 100%;
     margin: auto;
 }
@@ -291,7 +291,7 @@ tr.talk {
   }
 
   body {
-      font-family: "Segoe Ui";
+/*      font-family: "Segoe Ui";*/
       width: 100%;
       margin: auto;
   }
@@ -449,7 +449,7 @@ tr.talk {
   .main-title {
     font-size: 39px; 
 /*      height: 174px;*/
-    width: 56.2%;
+    width: 56.39%;
     margin: 0px;
     padding-top: 3.3%;
     padding-bottom: 3.3%;
@@ -458,7 +458,7 @@ tr.talk {
   }
 
   body {
-      font-family: "Segoe Ui";
+/*      font-family: "Segoe Ui";*/
       width: 1000px;
       margin: auto;
   }
