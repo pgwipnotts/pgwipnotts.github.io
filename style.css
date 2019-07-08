@@ -4,29 +4,28 @@
     overflow: auto;
     margin-top: 84px;
     width=100%;
-    border-bottom: 7px solid black;
+    border-bottom: 1vw solid black;
 }
 
 .logo {
     float: right;
-    width: 20%;
+    width: 19.99%;
     height: auto;
-    border-left: 7px solid black;
+    border-left: 1vw solid black;
     background-color: limegreen;
 /*  borders need to be % to make this work (I think) */
 }
 
 .main-title {
     font-size: 4.1vw; 
-    height: auto;
-    width: 42%;
+    width: 41.9%;
     float: left;
     color: white;
     background-color: cornflowerblue;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    padding-left: 7.5%;
-    padding-right: 7.5%;
+    padding-bottom: 2.9%;
+    padding-top: 2.9%;
+    padding-left: 7.52%;
+    padding-right: 7.52%;
     margin: 0px;
 }
 
@@ -60,9 +59,9 @@ body {
     float: left;
     width: 20%;
     height: auto;
-    padding-bottom: 12.8%;
-    padding-right: 5px;
-    border-right: 7px solid black;
+    padding-bottom: 12.9%;
+    padding-right: 1%;
+    border-right: 1vw solid black;
 }
 
 .description {
@@ -583,3 +582,7 @@ tr.talk {
   color: black;
   background-color: limegreen;
 }
+
+
+
+
