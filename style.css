@@ -17,15 +17,15 @@
 }
 
 .main-title {
-    font-size: 3.8vw; 
-    width: 41.9%;
+    font-size: 4vw; 
+    width: 42%;
     float: left;
     color: white;
     background-color: cornflowerblue;
-    padding-bottom: 3.4%;
-    padding-top: 3.3%;
-    padding-left: 7.52%;
-    padding-right: 7.52%;
+    padding-bottom: 3.1%;
+    padding-top: 3.1%;
+    padding-left: 7.4%;
+    padding-right: 7.4%;
     margin: 0px;
 }
 
@@ -444,14 +444,14 @@ tr.talk {
   }
 
   .main-title {
-    font-size: 35px; 
+    font-size: 39px; 
 /*      height: 174px;*/
-    width: 390px;
+    width: 395px;
     margin: 0px;
-    padding-top: 39px;
-    padding-bottom: 39px;
-    padding-left: 85.5px;
-    padding-right: 85.5px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 83.5px;
+    padding-right: 83.5px;
   }
 
   body {
