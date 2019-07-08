@@ -22,8 +22,8 @@
     float: left;
     color: white;
     background-color: cornflowerblue;
-    padding-bottom: 3.7%;
-    padding-top: 3.7%;
+    padding-bottom: 2.55%;
+    padding-top: 2.55%;
 /*
     padding-left: 5.97%;
     padding-right: 5.97%;
@@ -32,7 +32,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Segoe Ui";
     width: 100%;
     margin: auto;
 }
@@ -291,7 +291,7 @@ tr.talk {
   }
 
   body {
-      font-family: sans-serif;
+      font-family: "Segoe Ui";
       width: 100%;
       margin: auto;
   }
@@ -458,7 +458,7 @@ tr.talk {
   }
 
   body {
-      font-family: sans-serif;
+      font-family: "Segoe Ui";
       width: 1000px;
       margin: auto;
   }
