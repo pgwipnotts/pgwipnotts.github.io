@@ -440,7 +440,7 @@ tr.talk {
 
   .logo {
       float: right;
-      width: 200px;
+      width: 20%;
       height: 200px;
       border-left: 7px solid black;
       border-right: 7px solid black;
@@ -485,7 +485,7 @@ tr.talk {
 
   .uon_logo {
       float: left;
-      width: 200px;
+      width: 20%;
       padding-bottom: 126px;
       border-right: 7px solid black;
       border-left: 7px solid black;
