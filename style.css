@@ -449,12 +449,12 @@ tr.talk {
   .main-title {
     font-size: 39px; 
 /*      height: 174px;*/
-    width: 530px;
+    width: 56.2%;
     margin: 0px;
     padding-top: 33px;
     padding-bottom: 33px;
-    padding-left: 1.6%;
-    padding-right: 1.6%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
   body {
