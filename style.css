@@ -17,13 +17,13 @@
 }
 
 .main-title {
-    font-size: 4.1vw; 
+    font-size: 4vw; 
     width: 41.9%;
     float: left;
     color: white;
     background-color: cornflowerblue;
-    padding-bottom: 2.9%;
-    padding-top: 2.9%;
+    padding-bottom: 3%;
+    padding-top: 3.1%;
     padding-left: 7.52%;
     padding-right: 7.52%;
     margin: 0px;
@@ -159,7 +159,7 @@ a:hover {
 .speaker-bios {
   width: 100%;
   text-align: center;
-  padding-left: 5px;
+  padding-left: 0px;
 }
 
 .speaker-bios table {
@@ -210,7 +210,7 @@ a:hover {
 .programme {
   text-align: center;
   width: 100%;
-  padding-left: 5px;
+  padding-left: 0px;
 }
 
 .programme table {
@@ -444,12 +444,12 @@ tr.talk {
   }
 
   .main-title {
-    font-size: 39px; 
+    font-size: 37px; 
 /*      height: 174px;*/
     width: 390px;
     margin: 0px;
-    padding-top: 33px;
-    padding-bottom: 33px;
+    padding-top: 36px;
+    padding-bottom: 36px;
     padding-left: 85.5px;
     padding-right: 85.5px;
   }
@@ -547,7 +547,7 @@ tr.talk {
     margin-top: 84px;
     width: 1000px;
     text-align: justify;
-    padding-left: 5px;
+    padding-left: 0px;
   }
 
   .image-enlarged {
@@ -568,14 +568,14 @@ tr.talk {
     margin-top: 84px;
     width: 1000px;
     text-align: justify;
-    padding-left: 5px;
+    padding-left: 0px;
   }
   
   .programme-content {
     margin-top: 84px;
     width: 1000px;
     text-align: justify;
-    padding-left: 5px;
+    padding-left: 0px;
   }
   
   .registration-content {
