@@ -1,10 +1,11 @@
 .header {
-    text-align: center;
-    background-color: limegreen;
-    overflow: auto;
-    margin-top: 84px;
-    width=100%;
-    border-bottom: 1vw solid black;
+  display: flex;
+  text-align: center;
+  background-color: limegreen;
+  overflow: auto;
+  margin-top: 84px;
+  width=100%;
+  border-bottom: 1vw solid black;
 }
 
 .logo {
@@ -13,6 +14,8 @@
     height: auto;
     border-left: 1vw solid black;
     background-color: limegreen;
+    order: 3;
+
 /*  borders need to be % to make this work (I think) */
 }
 
@@ -29,6 +32,8 @@
     padding-right: 5.97%;
 */
     margin: 0px;
+    order: 2;
+
 }
 
 body {
@@ -64,6 +69,7 @@ body {
     padding-bottom: 12.9%;
     padding-right: 1%;
     border-right: 1vw solid black;
+    order: 1;
 }
 
 .description {
@@ -273,6 +279,7 @@ tr.talk {
     overflow: auto;
     margin-top: 127px;
     border-bottom: 1vw solid black;
+    display: block;
   }
 
   .logo {
