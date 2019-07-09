@@ -15,6 +15,7 @@
     border-left: 1vw solid black;
     background-color: limegreen;
     order: 3;
+    max-height: 100%;
 
 /*  borders need to be % to make this work (I think) */
 }
@@ -275,7 +276,7 @@ tr.talk {
   .header {
     text-align: center;
     background-color: limegreen;
-/*    height: 270px;*/
+    height: 100%;
     overflow: auto;
     margin-top: 127px;
     border-bottom: 1vw solid black;
@@ -493,6 +494,7 @@ tr.talk {
   .uon_logo {
       float: left;
       width: 19.9%;
+      max-height: 100%;
       padding-bottom: 126px;
       border-right: 7px solid black;
       border-left: 7px solid black;
