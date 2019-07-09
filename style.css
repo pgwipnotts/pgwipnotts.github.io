@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  align-items: center;
   text-align: center;
   background-color: limegreen;
   overflow: auto;
@@ -15,9 +16,6 @@
     border-left: 1vw solid black;
     background-color: limegreen;
     order: 3;
-    max-height: 100%;
-
-/*  borders need to be % to make this work (I think) */
 }
 
 .main-title {
