@@ -281,7 +281,7 @@ tr.talk {
   .header {
     text-align: center;
     background-color: limegreen;
-    height: 350px;
+    height: 400px;
     overflow: auto;
     margin-top: 127px;
     border-bottom: 5px solid black;
@@ -302,12 +302,13 @@ tr.talk {
   }
 
   .main-title {
-    font-size: 33px; 
+    font-size: 45px; 
     width: 100%;
     border-top: 5px solid black;
     order: 3;
-    height: 165px;
-    padding-top: 50px;
+    height: 235px;
+    padding-top: 30px;
+    padding-left: 0px;
     margin: 0px;
     align-self: flex-start;
   }
