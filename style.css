@@ -173,7 +173,7 @@ a:hover {
 .speaker-bios {
   width: 100%;
   text-align: center;
-  padding-left: 0px;
+  padding-left: 1%;
 }
 
 .speaker-bios table {
@@ -442,6 +442,11 @@ tr.talk {
     text-align: justify;
     padding-left: 1%;
   }
+  
+  .speaker-bios {
+    padding-left: 0%;
+  }
+  
   .speaker-images {
     height: 100%;
     max-height: 100px;
@@ -609,6 +614,10 @@ tr.talk {
     padding-left: 0px;
   }
   
+  .speaker-bios {
+    padding-left: 0px;
+  }
+  
   .programme-content {
     margin-top: 84px;
     width: 1000px;
@@ -633,3 +642,8 @@ tr.talk {
 
 
 
+
+.susha {
+  background-color: cornflowerblue;
+  color: white;
+}
