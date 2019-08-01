@@ -281,6 +281,21 @@ tr.talk {
   font-weight: bold;
 }
 
+.registration-link:hover {
+  color: black;
+  background-color: limegreen;
+}
+
+.susha {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+#emma-pic {
+/*  override because image is square */
+  max-height: 190px;
+}
+
 @media screen and (max-width: 600px) {
 /*  This will control the mobile site */
   .header {
@@ -466,6 +481,10 @@ tr.talk {
     text-align: center;
 /*    padding-left: 1%;*/
   }
+  
+  #emma-pic {
+    max-height: 75px;
+  }
 }
 @media screen and (min-width: 1010px) {
 /*  This will control the site on screens larger than 1000px */
@@ -633,17 +652,3 @@ tr.talk {
   }
 }
 
-
-.registration-link:hover {
-  color: black;
-  background-color: limegreen;
-}
-
-
-
-
-
-.susha {
-  background-color: cornflowerblue;
-  color: white;
-}
