@@ -89,6 +89,7 @@ body {
 .content {
     width: 98%;
     padding-top: 3%;
+    padding-left: 1%;
     text-align: center;
     font-size: 20px;
 }
@@ -380,6 +381,7 @@ tr.talk {
   .content {
       width: 98%;
       padding-top: 3%;
+      padding-left: 1%;
       text-align: center;
       font-size: 20px;
   }
@@ -559,6 +561,7 @@ tr.talk {
   .content {
       width: 1000px;
       padding-top: 22px;
+      padding-left: 0px;
       text-align: center;
       font-size: 20px;
   }
@@ -677,6 +680,7 @@ tr.talk {
   border-collapse: collapse;
 */
   height: 25px;
+  background-color: limegreen;
 }
 
 our_details td {
@@ -686,5 +690,6 @@ our_details td {
 .our_details th {
   border-bottom: 0.5vw solid black;
   border-collapse: collapse;
-  
+  background-color: deeppink;
+  color: white;
 }
