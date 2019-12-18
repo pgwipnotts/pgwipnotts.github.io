@@ -419,8 +419,8 @@ tr.talk {
 
   .nav_logo {
       float: left;
-      height: 100%;
-      padding: 0px;
+      height: 80%;
+      padding-top: 12px;
   }
 
   .page_holder {
