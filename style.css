@@ -323,12 +323,12 @@ tr.talk {
   }
 
   .main-title {
-    font-size: 45px; 
+    font-size: 40px; 
     width: 100%;
     border-top: 5px solid black;
     order: 3;
-    height: 235px;
-    padding-top: 30px;
+    height: 230px;
+    padding-top: 35px;
     padding-left: 0px;
     margin: 0px;
     align-self: flex-start;
