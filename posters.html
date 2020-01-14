@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- Add title to display on the tab -->
+  <title>Women in Physics Conference</title>
+    
+  <!-- Add icon for on tab -->  
+  <link rel="icon" href="./pgWiPlogo.png">
+    
+  <!-- Add link to style sheet for customisation -->
+  <link href="./style.css" type="text/css" rel="stylesheet">
+  
+  <!-- Add meta that allows the html to adjust size -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!--  This allows me to track activity on the website -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142902606-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-142902606-1');
+</script>
+</head>
+
+<body>
+  <div class="navbar">
+    <!-- This will contain a static navigation bar including the logo and a dropdown menu -->
+    
+      <a href="./index"><img class="nav_logo" src="pgWiPlogo.png"/></a>
+
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Information</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="./speakers">Speakers</a>
+          <a href="./programme">Programme</a>
+          <a href="./location" >Location and Travel</a>
+        </div>
+      </div>
+      <a href="./registration" class="buttons">Registration</a>
+      <a href="./faqs" class="buttons">FAQs</a>
+  </div>
+
+  <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+  </script>
+  
+  <div class="location-content">
+    <p class="description">As part of the day, there will be a chance for attendees to present their own science as part of our poster competition. If you would like to enter then please indicate this on your registration form. The rules of the competition are outlined below, it will be judged by 4th year undergraduates.</p>
+    
+    <h3>Poster Competition Rules</h3>
+    <ul>
+      <li>Posters should be a maximum of A1 size</li>
+      <li>They can be either portrait or landscape.</li>
+      <li>Posters should be aimed at 4th year undergraduate level.</li>
+      <li>The 1st prize will be a £25 amazon voucher.</li>
+      <li>There will also be cerificates for 2nd and 3rd place.</li>
+    </ul>
+    
+    <p>Once we have closed registration we will send out an email requesting a title and abstract. The deadline for sending these is the 14th February.</p>
+  </div>  
+  
+  <a href=https://twitter.com/pgWiPNotts target="_blank"><img  class="twitterlogo" src="Twitter_Logo_WhiteOnBlue.png" /></a> <p class="twitter">@pgwipnotts</p>
+
+  <p class="email">pgwipnotts@gmail.com</p>
+  
+ 
+</body>
+</html>
