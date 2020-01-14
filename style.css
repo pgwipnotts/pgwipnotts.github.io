@@ -831,3 +831,9 @@ our_details td {
 
 
 
+
+.poster-rules {
+  background-color: cornflowerblue;
+  border: 3px solid black;
+  padding-left: 3%;
+}
