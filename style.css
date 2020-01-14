@@ -352,6 +352,7 @@ tr.talk {
 
 .dropdown-content a:hover {
   background-color: limegreen;
+  color: black;
   padding: 9px 13px;
   border: 3px solid black;
 }
@@ -605,6 +606,7 @@ tr.talk {
 
 .dropdown-content a:hover {
   background-color: limegreen;
+  color: black;
   padding: 9px 13px;
   border: 3px solid black;
 }
