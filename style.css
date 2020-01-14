@@ -304,12 +304,12 @@ tr.talk {
 
 .dropdown .dropbtn {
 /*  cursor: pointer;*/
-  font-size: 18px;  
+  font-size: 19px;  
   border: none;
   outline: none;
   color: darkblue;
   padding-bottom: 28px;
-  padding-top: 28px;
+  padding-top: 27px;
   padding-left: 13px;
   padding-right: 13px;
   background-color: inherit;
@@ -322,7 +322,7 @@ tr.talk {
   background-color: limegreen;
   color: black;
   border: 3px solid black;
-  padding-top: 25px;
+  padding-top: 24px;
   padding-bottom: 26px;
   padding-left: 10px;
   padding-right: 10px;
