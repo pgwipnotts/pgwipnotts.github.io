@@ -297,6 +297,68 @@ tr.talk {
   max-height: 190px;
 }
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+/*  cursor: pointer;*/
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: darkblue;
+  padding-bottom: 28px;
+  padding-top: 28px;
+  padding-left: 8%;
+  padding-right: 7%;
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: limegreen;
+  color: black;
+  border: 3px solid black;
+  padding-top: 25px;
+  padding-bottom: 26px;
+  padding-left: 5%;
+  padding-right: 5%;
+  outline: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: darkblue;
+  font-weight: bold;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: limegreen;
+  padding: 9px 13px;
+  border: 3px solid black;
+}
+
+.show {
+  display: block;
+}
 @media screen and (max-width: 600px) {
 /*  This will control the mobile site */
   .header {
@@ -398,10 +460,10 @@ tr.talk {
   .buttons {
       float: left;
       display: block;
-      padding-top: 15px;
       padding-bottom: 15px;
+      padding-top: 15px;
       padding-left: 2%;
-      padding-right: 2%;
+    padding-right: 2%;
       font-size: 18px;
       text-decoration: none;
       color: darkblue;
@@ -487,6 +549,70 @@ tr.talk {
   #emma-pic {
     max-height: 75px;
   }
+  
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+/*  cursor: pointer;*/
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: darkblue;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 8%;
+  padding-right: 7%;
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: limegreen;
+  color: black;
+  border: 3px solid black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 5%;
+  padding-right: 5%;
+  outline: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: darkblue;
+  font-weight: bold;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: limegreen;
+  padding: 9px 13px;
+  border: 3px solid black;
+}
+
+.show {
+  display: block;
+}
+
 }
 @media screen and (min-width: 1010px) {
 /*  This will control the site on screens larger than 1000px */
