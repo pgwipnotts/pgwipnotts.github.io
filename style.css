@@ -310,8 +310,8 @@ tr.talk {
   color: darkblue;
   padding-bottom: 28px;
   padding-top: 28px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 13px;
+  padding-right: 13px;
   background-color: inherit;
   font-family: inherit;
   font-weight: bold;
@@ -324,8 +324,8 @@ tr.talk {
   border: 3px solid black;
   padding-top: 25px;
   padding-bottom: 26px;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 10px;
+  padding-right: 10px;
   outline: none;
 }
 
@@ -564,8 +564,8 @@ tr.talk {
   color: darkblue;
   padding-bottom: 15px;
   padding-top: 15px;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 8px;
+  padding-right: 8px;
   background-color: inherit;
   font-family: inherit;
   font-weight: bold;
@@ -578,8 +578,8 @@ tr.talk {
   border: 3px solid black;
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 5px;
+  padding-right: 5px;
   outline: none;
 }
 
