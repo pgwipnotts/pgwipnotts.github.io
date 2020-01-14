@@ -148,6 +148,7 @@ body {
   width: 98%;
   padding-left: 1%;
   text-align: justify;
+  float: left;
 }
 
 .image-enlarged {
@@ -360,6 +361,43 @@ tr.talk {
 .show {
   display: block;
 }
+
+
+.details_table {
+  
+}
+
+.our_details table {
+  width: 100%;
+  border: 0.5vw solid black;
+  border-collapse: collapse;
+}
+
+.our_details tr, .our_details td{
+/*
+  border: 0.25vw solid black;
+  border-collapse: collapse;
+*/
+  height: 25px;
+  background-color: limegreen;
+}
+
+our_details td {
+/*  width: 200px;*/
+}
+
+.our_details th {
+  border-bottom: 0.5vw solid black;
+  border-collapse: collapse;
+  background-color: deeppink;
+  color: white;
+}
+
+.devasuda {
+  background-color: deeppink;
+  color: white;
+}
+
 @media screen and (max-width: 600px) {
 /*  This will control the mobile site */
   .header {
@@ -792,37 +830,4 @@ tr.talk {
 
 
 
-.details_table {
-  
-}
 
-.our_details table {
-  width: 100%;
-  border: 0.5vw solid black;
-  border-collapse: collapse;
-}
-
-.our_details tr, .our_details td{
-/*
-  border: 0.25vw solid black;
-  border-collapse: collapse;
-*/
-  height: 25px;
-  background-color: limegreen;
-}
-
-our_details td {
-/*  width: 200px;*/
-}
-
-.our_details th {
-  border-bottom: 0.5vw solid black;
-  border-collapse: collapse;
-  background-color: deeppink;
-  color: white;
-}
-
-.devasuda {
-  background-color: deeppink;
-  color: white;
-}
