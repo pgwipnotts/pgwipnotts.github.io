@@ -443,12 +443,12 @@ our_details td {
     margin-top: 127px;
     border-bottom: 5px solid black;
     display: grid;
-    grid-template-columns: auto 200px;
-    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: auto 170px;
+    grid-template-rows: 100px 70px 130px 100px;
   }
 
   .logo {
-      width: 195px;
+      width: 165px;
     grid-column: 3;
     grid-row: 1 / 2;
 /*      border-left: 1vw solid black;*/
