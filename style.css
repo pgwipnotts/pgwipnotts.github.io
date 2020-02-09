@@ -31,7 +31,7 @@
     background-color: cornflowerblue;
 /*    align-self: baseline;*/
 /*    padding-bottom: 3.1%;*/
-    padding-top: 25px;
+    padding-top: 15px;
 /*
     padding-left: 5.97%;
     padding-right: 5.97%;
@@ -459,6 +459,7 @@ our_details td {
     grid-column: 1 /4;
     grid-row: 3 /4;
     border-top: 1vw solid black;
+    padding-top: 25px;
   }
 
   body {
