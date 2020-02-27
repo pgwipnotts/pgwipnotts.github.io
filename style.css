@@ -416,6 +416,13 @@ our_details td {
     padding-top: 10px
 }
 
+.msl_logo {
+    grid-column: 1;
+    grid-row-start: 4;
+    width: 125px;
+    padding-top: 5px
+}
+
 .sponsors {
     grid-column: 1;
     grid-row: 1/4;
@@ -511,7 +518,12 @@ our_details td {
     padding-top: 70px;
   }
 
-
+  .msl_logo {
+    grid-column: 1;
+    grid-row: 1;
+    width: 155px;
+    padding-top: 116px;
+  }
   .logo_holder {
       display: 
       grid-column: 3;
@@ -777,7 +789,14 @@ our_details td {
       width: 197px;
       padding-top: 15px
   }
-
+  
+  .msl_logo {
+        grid-column: 1;
+        grid-row: 2;
+        width: 197px;
+        padding-top: 5px
+    }
+  
   .sponsors {
       grid-column: 1;
       grid-row: 1/4;
