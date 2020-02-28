@@ -916,3 +916,19 @@ our_details td {
 /*    padding-left: 5px;*/
   }
 }
+
+.title {
+  color: limegreen;
+  border-top: 1vw solid cornflowerblue;
+  padding-top: 1%;
+  margin-bottom: 1%;
+}
+
+.name {
+  color: hotpink;
+  margin-top: 1.5%;
+}
+
+.abstract {
+  text-align: justify;
+}
